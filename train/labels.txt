@@ -1,3 +1,3 @@
 .ipynb_checkpoints
-nao é o cachorro escolhido
-é o cachorro escolhido
+nao é o cachorro 
+é o cachorro 

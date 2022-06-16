@@ -75,10 +75,10 @@ class _AnimalPageState extends State<AnimalPage> {
                             await AnimalPerdidoRepository()
                               .salvar(AnimalPerdidoModel(animal)); 
                               Navigator.pop(context);
-                              ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text("Cachorro adicionado na lista de perdidos.")));
+                              ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text("Cachorro adicionado na lista de perdidos.")));
                               
                           } catch (e) {
-                            ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text("Erro adicionando cachorro. Tente mais tarde.")));
+                            ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text("Erro adicionando cachorro. Tente mais tarde.")));
                           }
                         },
                         child: const Text('Sim'),
